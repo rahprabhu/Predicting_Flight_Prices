@@ -1,2 +1,2 @@
-# Predicting_Flight_Prices
+# Predicting Flight Prices
 Tree-based models to predict flight prices
