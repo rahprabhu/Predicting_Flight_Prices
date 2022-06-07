@@ -36,5 +36,6 @@ To further evaluate the XGBoost, I once again leverage Matplotlib and Seaborn, b
 ## Potential Ways to Improve / Ideas for Additional Data
   - Dimensionality Reduction techniques: Using PCA or LDA to try and reduce the dimensionality and sparsity of the data to capture most of the variance within a smaller subspace.
   - Remove outliers: either price outliers, or duration outliers. If we remove flights that are unusually expensive or flights that are extremely long due to extended layovers, maybe we can see improved predictions.
+  - Collect more data across the whole year or across a longer period of time. If we trained our model on a whole year of data, the date or month of departure might have more of an impact on determining flight prices, as there may be seasonality present in a whole year of data.
   - Add data on when the flight was booked: Most often, flights tend to be more expensive the closer to the departure date that they are booked, so we could be able to explain more of the variance in prices if we knew when the tickets were booked.
   - Add data on where the flight was booked: Was the flight booked through the airline or 3rd party? People often search through 3rd party websites and services for cheaper tickets, so having info on how/where the flight was booked might be helpful.
